@@ -8,7 +8,7 @@ setuptools.setup(
 
      name='pyawake',  
 
-     version='0.1',
+     version='0.0.3',
 
      scripts=['dokr'] ,
 
