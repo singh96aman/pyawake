@@ -30,12 +30,8 @@ import glob
 import time
 import numpy as np
 
-os.environ['AAT'] = '/eos/user/a/amthakur/SWAN_projects/AWAKE_ANALYSIS_TOOLS/'
-sys.path.append(os.environ['AAT']+'ntupling/')
-sys.path.append(os.environ['AAT']+'utilities/')
-sys.path.append(os.environ['AAT']+'analyses/')
-import frame_analysis as fa
-from custom_cmap import custom_cmap
+import analyses.frame_analysis as fa
+from utilities.custom_cmap import custom_cmap
 cm = custom_cmap()
 
 
