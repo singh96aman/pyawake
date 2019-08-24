@@ -160,7 +160,7 @@ class Visualizing:
     
     # Display Movie using awake_analysis_tools 
     def displayMovie(self,dataset_list):
-        if(len(datset_list)!=0):
+        if(len(dataset_list)!=0):
             for dataset in dataset_list:
                 DatasetName = dataset['DatasetName']
                 ImageData, ImageHeight, ImageWidth = self.prepare_image(dataset)

@@ -1,5 +1,4 @@
 README.md
-dokr
 setup.py
 pyawake/IndexingPython.py
 pyawake/IndexingSpark.py

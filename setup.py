@@ -8,9 +8,7 @@ setuptools.setup(
 
      name='pyawake',  
 
-     version='0.0.4',
-
-     scripts=['dokr'] ,
+     version='0.0.5',
 
      author="Aman Singh Thakur",
 
